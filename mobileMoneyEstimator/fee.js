@@ -29,7 +29,7 @@ function estimateTransactionFee() {
   }
 
   // Prepare the message to display the fee breakdown
-  var message =
+  let message =
     `Sending KES ${amountToSend}\n` +
     `Calculated Transaction Fee KES ${actualtransactionFee}\n` +
     `Total Amount to be debited KES ${amountToSend + actualtransactionFee}\n\n` +

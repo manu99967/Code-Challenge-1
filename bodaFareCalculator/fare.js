@@ -1,7 +1,7 @@
 
 function calculateBodaFare() {
     // Prompt user for distance in kilometers
-    var distanceInKm = prompt("Unafika wapi Mkubwa? Kilometer ngapi?");
+    let distanceInKm = prompt("Unafika wapi Mkubwa? Kilometer ngapi?");
     distanceInKm = Number(distanceInKm);
 
     // Validate input: must be a positive number
